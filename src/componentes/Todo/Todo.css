@@ -1,0 +1,8 @@
+form input {
+    width: 55%;
+    margin-left: 2.5%;
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 2px;
+  }
