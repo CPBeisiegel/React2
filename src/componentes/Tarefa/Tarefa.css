@@ -1,22 +1,29 @@
-    
 div.tarefa {
-    display: flex;
-    justify-content: space-between;
-  
-    width: 95%;
-    background-color: #e9e9e9;
-    margin: 5px auto;
-    padding: 5px 20px;
-    border: 1px solid #666;
-    border-radius: 2px;
-  }
-  
-  .Fazendo {
-    font-weight: bold;
-    color: #c41010;
-  }
-  
-  .Feito {
-    font-weight: bold;
-    color: #4bd64b;
-  }
+  display: flex;
+  justify-content: space-between;
+
+  width: 95%;
+  background-color: #e9e9e9;
+  margin: 5px auto;
+  padding: 5px 20px;
+  border: 1px solid #666;
+  border-radius: 2px;
+}
+
+.Fazendo {
+  font-weight: bold;
+  color: #c41010;
+}
+
+.Feito {
+  font-weight: bold;
+  color: #4bd64b;
+}
+
+.Feito:hover {
+  cursor: pointer;
+}
+
+.Fazendo:hover {
+  cursor: pointer;
+}

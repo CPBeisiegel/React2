@@ -8,7 +8,9 @@ class Tarefa extends React.Component {
         return (
             <div className="tarefa">
                 <span>{this.props.tituloTarefa}</span>
+                <span>{this.props.tituloData}</span>
                 <span onClick={this.props.aoClicar} className={this.props.classeStatus}>{this.props.tituloStatus}</span>
+                    
 
 
 

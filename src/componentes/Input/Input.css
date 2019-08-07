@@ -1,0 +1,14 @@
+    
+input[type="text"] {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  input {
+    width: 55%;
+    padding: 8px;
+    border: 1px solid #666;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 1.2em;
+  }
